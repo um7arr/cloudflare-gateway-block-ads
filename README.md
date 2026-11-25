@@ -3,7 +3,7 @@ A GitHub Actions script to automatically create and update Cloudflare Zero Trust
 
 The script works by periodically downloading the [OISD](https://oisd.nl/) small blocklist, splitting it into smaller chunks, uploading it to Cloudflare as multiple Domains lists, and then creating a policy that blocks all traffic to the domains in the lists.
 
-It does not use the Cloudflare API unnecessarily as it only updates the Domains lists if the OSID blocklist has changed since the last run.
+It does not use the Cloudflare  API unnecessarily as it only updates the Domains lists if the OSID blocklist has changed since the last run.
 
 ## Setup
 
